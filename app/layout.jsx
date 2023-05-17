@@ -1,13 +1,13 @@
 import "../styles/globals.css"
 
-import { Navigation } from "./components/Navigation";
+import { Navigation } from "../components/Navigation";
 
 
 
 export default function RootLayout({ children }) {
     return (
       <html lang="en">
-        <head>
+        <head> 
             <title>My first app</title>
         </head>
         <body>
